@@ -22,6 +22,8 @@ Then put the module on the bar, in `init.lua`:
 ranma.bar { right = { "kizuna", "clock" } }
 ```
 
+Add the module to the bar only once the plugin is installed: a bar that names a module no installed plugin declares makes every config reload fail.
+
 Needs: [kizuna](https://github.com/masshirodev/kizuna) (`kizuna peers`, `kizuna send`). Without it the plugin says so once and stays quiet.
 
 ## What it does
